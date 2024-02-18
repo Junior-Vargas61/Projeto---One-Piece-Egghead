@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="./src/imagens/Logo Z.png" type="image/x-icon">
+    
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;300;500&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="./src/css/reset.css">
+
+    <link rel="stylesheet" href="./src/css/estilos.css">
+    
+    <link rel="stylesheet" href="./src/css/responsivo.css">
+
+    <title> One Piece - Egghead </title>
+</head>
+<body>
+    <div class="fundo-video">
+        <video class="video" autoplay loop muted>
+            <source src="./src/video/Video de fundo.mp4" type="video/mp4">
+        </video>
+    </div>
+
+    <header class="cabecalho">
+        <a>
+            <img class="logo" src="./src/imagens/Logo Z.png" alt="Logo Z">
+        </a>
+        <nav>
+            <ul class="menu">
+                 <li><a href="#">Home</a></li>
+                 <li><a href="#">Detalhes</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main class="container">
+
+        <div class="informacoes">
+            <img class="imagem-titulo" src="./src/imagens/Titulo.png" alt="Imagem do Título Dragon Ball Z">
+            <p class="descricao">
+                One Piece é um anime e mangá de aventura criado por Eiichiro Oda, seguindo as incríveis jornadas de Monkey D. Luffy, um jovem determinado a se tornar o Rei dos Piratas. O mais recente arco, chamado Egghead, estreou em janeiro de 2024, desenrolando-se na Ilha dos Ovos, localizada no Novo Mundo. Nessa ilha, governada por um excêntrico cientista chamado Egghead, Luffy e sua tripulação se envolvem em intrigantes eventos enquanto o cientista realiza experimentos bizarros com ovos. </p>
+             <button class="botao-trailer">Veja o trailer </button> 
+        </div>
+        <img class="luffy" src="./src/imagens/Goku VS Vegeta.png">
+
+        <div class="modal">
+            <div class="conteudo-modal">
+                <span class="fechar-modal">X</span>
+                <iframe id="video" width="560" height="315" 
+                src="https://www.youtube.com/embed/qNKZ9r9qFTQ"
+                title="Trailer Oficial do Anime One Piece" 
+                frameborder="0" 
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
+                allowfullscreen>
+            </iframe>
+            </div>
+        </div>
+    </main>
+    <script src="./src/js/index.js"></script>
+</body>
+</html>
